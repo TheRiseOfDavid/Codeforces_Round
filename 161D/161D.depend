@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1599500054 source:d:\program\c++ algorithm\codeforces\161d\main.cpp
+	<cstdio>
+	<algorithm>
+
