@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1599588519 source:d:\program\c++ algorithm\codeforces\161d\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
+1599552627 source:c:\david\codeforce\161d\main.cpp
+	<cstdio>
+	<algorithm>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598804842 source:d:\program\c++ algorithm\codeforces_round\666_div2\pd\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
