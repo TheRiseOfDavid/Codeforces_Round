@@ -1,4 +1,15 @@
 #include <iostream>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+using namespace std;
+
+int main()
+{
+    cout << "Hello world!" << endl;
+=======
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
 #include <bits/stdc++.h>
 #define LOCAL
 #define MAXN 110
@@ -26,5 +37,9 @@ int main()
         cout << a + b << '\n' ;
     }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 339ff9c3d3bfe590aca334f1eb16634f612d5119
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
     return 0;
 }

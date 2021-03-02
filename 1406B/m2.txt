@@ -2,6 +2,39 @@
 #include <bits/stdc++.h>
 #define LOCAL
 #define ll long long
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#define MAXN
+using namespace std;
+deque<ll> num;
+ll sum = 1 , index = 1 ;
+
+ll fsum(int i){
+    if(i < 4){
+        ll sa , sb ;
+        sa = num[0] * num[1] ;
+        sb = num[n-1] * num[n-2];
+        if(sa > sb){
+            sum *= sa ;
+            num.pop_front(0);
+            num.pop_front(0);
+        }
+        else if(sa > sb){
+            sum *= sb ;
+            num.pop_back(n-2);
+            num.pop_back(n-2);
+
+        }
+        else if( sa == sb ){
+            i += 2 ;
+            if(sa +)
+
+        }
+    }
+    n -= 2 ;
+=======
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
 using namespace std;
 struct lln{
     ll num , neg ;
@@ -28,6 +61,10 @@ void p(int index , ll sum , int i , ll intNeg ){
     if((intNeg+dnum[i].neg) % 2 == 1){
         p(index, sum , i-1 , intNeg);
     }
+<<<<<<< HEAD
+=======
+>>>>>>> 339ff9c3d3bfe590aca334f1eb16634f612d5119
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
 }
 
 int main()
@@ -35,12 +72,39 @@ int main()
 #ifdef LOCAL
     freopen("in1.txt", "r" , stdin );
 #endif // LOCAL
+<<<<<<< HEAD
 
     lln temp ;
+=======
+<<<<<<< HEAD
+    int t , n ;
+    ll temp ;
+=======
+
+    lln temp ;
+>>>>>>> 339ff9c3d3bfe590aca334f1eb16634f612d5119
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
 
     cin >> t ;
     while(t--){
         cin >> n ;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        num.clear();
+        for(int i = 0 ; i < n ; i++){
+            cin >> temp ;
+            num.push_back(temp) ;
+        }
+        sort(num , num + n ) ;
+        sum = 1 ;
+
+
+
+
+
+=======
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
         dnum.clear();
         maxn = -1e15;
         for(int i = 0 ; i < n ; i++){
@@ -58,6 +122,10 @@ int main()
         sort(dnum.begin() , dnum.end(), compare ) ;
         p(0,1,n-1,0);
         cout << maxn << '\n' ;
+<<<<<<< HEAD
+=======
+>>>>>>> 339ff9c3d3bfe590aca334f1eb16634f612d5119
+>>>>>>> 472a7455278af9725957723e3e2408dd575deec0
     }
 
 
